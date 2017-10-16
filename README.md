@@ -10,7 +10,7 @@ phpAlphaDB Comes Pre-installed, Put this at the top of your file.
 -> include("../library/phpAlphaDB/core.php");
 
 Also you can manage phpAlphaDB by going to
--> http://localhost:<port>/phpalphaadmin
+-> http://localhost:port/phpalphaadmin
 
 Thats it for now, this is UsbWebServer v8.6.1
 (I have nothing to do with the original developer)
