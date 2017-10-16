@@ -1,0 +1,139 @@
+body {
+	margin: 0;
+	background: black;
+	color: gray;
+	font-family: arial, tahoma, verdana, helvetica, sans-serif, serif;
+}
+
+.alphaside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 160px;
+    background-color:#0c0c0c;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.alphaside li a {
+    display: block;
+    color: gray;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.alphaside li .hover:hover{
+    color: white;
+}
+
+.alphatop {
+	margin-left: 160px;
+}
+
+.alphatop ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #090909;
+}
+
+.alphatop li {
+    float: right;
+}
+
+.alphatop li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 6px 6px;
+    text-decoration: none;
+}
+
+.alphatop li a:hover {
+    background-color: #0c0c0c;
+}
+
+.alphainput {
+	border: 1px solid #191919;
+	background-color: #0c0c0c;
+	color: gray;
+	padding: 6px 10px;
+	border-radius: 5px;
+}
+
+.alphabutton {
+	border: 1px solid #191919;
+	background-color: #0c0c0c;
+	color: gray;
+	padding: 6px 10px;
+	border-radius: 5px;
+}
+
+.alphacontent {
+	margin-left:160px;
+	padding:8px 16px;
+}
+
+.alphagreen {
+	color: #00FF00;
+	font-weight: bold;
+}
+
+.alphalogo {
+	color: white;
+}
+
+.alphahr hr {
+	border-style: dotted;
+	margin: 5px;
+}
+
+.alphadblist {
+	font-size: 0.8em;
+}
+
+.alphatable table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.alphatable th, .alphatable td {
+    text-align: left;
+    padding: 8px;
+}
+
+.alphatable tr:nth-child(even){background-color: #0d0d0d;}
+.alphatable tr:nth-child(odd){background-color: #0c0c0c;}
+
+.alphatable th {
+    background-color: #090909;
+    font-weight: bold;
+	color: #00ff00;
+	height: 20px;
+	font-size: 0.9em;
+}
+
+.alphatable td:first-child input {  
+	width:30px;
+}
+
+.alphatable td input {
+	max-width: 220px;
+}
+
+.alphacode {
+	font-family: monospace;
+	color: white;
+	background-color: darkgray;
+	padding: 5px 5px;
+}
+
+pre {
+	white-space: pre-line;
+}
+
+a{text-decoration:none;}
+a:hover{text-decoration:none;}
+a:visited{text-decoration:none;}

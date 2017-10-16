@@ -1,0 +1,103 @@
+body {
+	font-size: 18px;
+	color: red;
+	font-family: Verdana, Geneva, sans-serif;
+	background-color: #101010;
+	margin: 0px;
+}
+a {
+	text-decoration: none;
+}
+table {
+	border: 1px solid gray;
+	border-collapse: collapse;
+	background-color: #141414;
+	width: 75%;
+}
+td {
+	border-bottom: 1px solid gray;
+}
+tr {
+	/* border: 1px solid gray; */
+}
+button {
+	border: 1px solid gray;
+	padding: 4px;
+	background-color: #303030;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+}
+button:hover {
+	color: red;
+}
+.button {
+	border: 1px solid gray;
+	padding: 4px;
+	background-color: #303030;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+	outline: none;
+}
+.button:hover {
+	color: red;
+}
+.textbox {
+	min-width: 160px;
+	width: 100%;
+	border: 1px solid gray;
+	background-color: black;
+	color: red;
+	padding: 4px;
+	outline: none;
+}
+.textbox:hover {
+	padding: 4px;
+	border: 1px solid lightgray;
+}
+.sidebar {
+	width: 260px;
+	height: 100%;
+	position: fixed;
+	bottom: 0px; top: 0px; left: 0px;
+	border-right: 1px solid gray;
+	background-color: #141414;
+	margin-right: 20px;
+}
+.pagecontent {
+	min-height: 50%;
+	padding: 20px;
+	/* width: 70%; */
+	margin-left: 270px;
+}
+.navitem {
+	background-color: #141414;
+	border-bottom: 1px solid gray;
+	padding: 6px;
+	color: white;
+	cursor: pointer;
+}
+.navitem:hover {
+	background-color: red;
+	border-bottom: 1px solid gray;
+	padding: 6px;
+	color: white;
+}
+.first {
+	border-top: 1px solid gray;
+}
+.active {
+	background-color: darkred;
+}
+.active:hover {
+	background-color: darkred;
+}
+.textinput {
+	background-color: black;
+	border: 1px solid darkgray;
+	padding: 6px;
+	color: white;
+	outline: none;
+}
